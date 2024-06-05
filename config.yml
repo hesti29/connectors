@@ -15,6 +15,12 @@
 ##        service_type: changeme # The service type of the connector.
 ##        api_key: changeme # The Elasticsearch API key used to write data into the content index.
 #connectors: []
+
+connectors:
+-
+  connector_id: "OYsjyI8B6Kj6cN8KvtLr"
+  service_type: "postgresql"
+  api_key: "ZjR5UDVvOEI2TEpxaGRJcUlfMGI6SjU3ME44XzZTYmFaVDBjVWpLRk1XQQ=="
 #
 #
 ##  The ID of the connector.
@@ -36,6 +42,10 @@
 ## The API key for Elasticsearch connection.
 ##    Using `api_key` is recommended instead of `username`/`password`.
 #elasticsearch.api_key: null
+elasticsearch:
+  host: "http://localhost:9200"
+  api_key: "ZjR5UDVvOEI2TEpxaGRJcUlfMGI6SjU3ME44XzZTYmFaVDBjVWpLRk1XQQ=="
+
 #
 #
 ##  The username for the Elasticsearch connection.
